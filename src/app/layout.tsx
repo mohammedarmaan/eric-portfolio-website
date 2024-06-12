@@ -7,7 +7,7 @@ import GridBackground from "@/components/grid-background";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Eric Huang | Personal",
+  title: "Mohammed Armaan | Personal",
   metadataBase: new URL("https://www.erichuang.art"),
   alternates: {
     canonical: "/",
