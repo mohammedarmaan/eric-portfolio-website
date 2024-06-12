@@ -1,6 +1,8 @@
 import ContactList from "@/components/contact-list";
 import MotionText from "@/components/motion-text";
 import MotionDiv from "@/components/motion-div";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function hero() {
   return (
@@ -26,6 +28,9 @@ export default function hero() {
         <MotionDiv delayOffset={0.8}>Developer 🧑🏻‍💻</MotionDiv>
       </h1>
 
+      <h4>have a look at my resume</h4>
+            <Link href='/resume'><Button variant={"link"}>Resume</Button></Link>
+        
 
       {/* <h1>
         <MotionDiv delayOffset={1}>phot</MotionDiv>
