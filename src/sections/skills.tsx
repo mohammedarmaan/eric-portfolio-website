@@ -45,14 +45,7 @@ export default function skills() {
           name: "Next.js",
           icon: nextjsIcon,
         },
-        {
-          name: "Vue.js",
-          icon: vueIcon,
-        },
-        {
-          name: "tRPC",
-          icon: trpcIcon,
-        },
+        
         {
           name: "TypeScript",
           icon: typescriptIcon,
@@ -75,26 +68,14 @@ export default function skills() {
           icon: shadcnuiIcon,
         },
         {
-          name: "PNPM",
-          icon: pnpmIcon,
-        },
-        {
           name: "Vite",
           icon: viteIcon,
-        },
-        {
-          name: "Prettier",
-          icon: prettierIcon,
         },
       ],
     },
     {
       title: "Backend Development",
       skills: [
-        {
-          name: "Nest.js",
-          icon: nestjsIcon,
-        },
         {
           name: "Express.js",
           icon: expressjsIcon,
@@ -104,7 +85,7 @@ export default function skills() {
           icon: nodejsIcon,
         },
         {
-          name: "Prisma ORM",
+          name: "MongoDB",
           icon: prismaIcon,
         },
         {
@@ -113,19 +94,19 @@ export default function skills() {
         },
       ],
     },
-    {
-      title: "Mobile Development",
-      skills: [
-        {
-          name: "React Native",
-          icon: reactIcon,
-        },
-        {
-          name: "Expo",
-          icon: ExpoIcon,
-        },
-      ],
-    },
+    // {
+    //   title: "Mobile Development",
+    //   skills: [
+    //     {
+    //       name: "React Native",
+    //       icon: reactIcon,
+    //     },
+    //     {
+    //       name: "Expo",
+    //       icon: ExpoIcon,
+    //     },
+    //   ],
+    // },
     {
       title: "DevOps",
       skills: [
@@ -163,7 +144,7 @@ export default function skills() {
           icon: pythonIcon,
         },
         {
-          name: "Java",
+          name: "C",
           icon: javaIcon,
         },
       ],
@@ -171,10 +152,6 @@ export default function skills() {
     {
       title: "Tools & Environment",
       skills: [
-        {
-          name: "macOS",
-          icon: macosIcon,
-        },
         {
           name: "VS Code",
           icon: vscodeIcon,
@@ -190,19 +167,6 @@ export default function skills() {
         {
           name: "Postman",
           icon: postmanIcon,
-        },
-      ],
-    },
-    {
-      title: "Visual",
-      skills: [
-        {
-          name: "DaVinci Resolve",
-          icon: davinciResolveIcon,
-        },
-        {
-          name: "Lightroom",
-          icon: lightroomIcon,
         },
       ],
     },

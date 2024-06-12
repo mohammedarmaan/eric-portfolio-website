@@ -3,7 +3,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faGithub,
-  faTiktok,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import MotionList from "./motion-list";
@@ -15,17 +14,20 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
+// defined type
 type Contact = {
   name: string;
   className: string;
   href: string;
   icon: any;
 };
+
+// Initialised Contact
 const contacts: Contact[] = [
   {
     name: "Email",
     className: "bg-yellow-500 hover:bg-yellow-600",
-    href: "mailto:erich2s0103@gmail.com",
+    href: "mailto:armaan0243@gmail.com",
     icon: faEnvelope,
   },
 
@@ -38,21 +40,16 @@ const contacts: Contact[] = [
   {
     name: "Github",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://github.com/erich2s",
+    href: "https://github.com/mohammedarmaan",
     icon: faGithub,
   },
   {
     name: "Instagram",
     className: "bg-pink-500 hover:bg-pink-600",
-    href: "https://instagram.com/eric.h2s/",
+    href: "https://instagram.com/armaan__0204/",
     icon: faInstagram,
   },
-  {
-    name: "TikTok",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://tiktok.com/@erich2s",
-    icon: faTiktok,
-  },
+ 
 ];
 export default function ContactList({
   delayOffset = 0,

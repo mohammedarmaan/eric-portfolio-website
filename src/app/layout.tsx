@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   description: "Eric Huang's personal portfolio website, 黄士崧的个人网站",
   openGraph: {
-    title: "Eric Huang | Personal",
+    title: "Mohammed Armaan| Personal",
     description: "Eric Huang's personal portfolio website, 黄士崧的个人网站",
     images: [
       {
