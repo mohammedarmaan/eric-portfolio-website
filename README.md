@@ -1,4 +1,4 @@
-# Eric Huang Personal Portfolio Website 🧑🏻‍💻
+# Mohammed Armaan Personal Portfolio Website 🧑🏻‍💻
 
 Link: [erichuang.art](https://erichuang.art)
 
